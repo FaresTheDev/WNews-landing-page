@@ -92,10 +92,6 @@ nav {
 }
 
 .close-menu-button {
-  position: relative;
-  bottom: 230px;
-  left: 270px; 
-  cursor: pointer;
   font-size: 30px;
   color: var(--neutral-dark-blue);
   border: none;
