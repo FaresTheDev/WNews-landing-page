@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | News homepage</title>
+  </style>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <img src="./images/logo.svg" alt="the logo of the web page">
+
+    <button class="open-menu-button" id="open-menu-button">
+      <img src="./images/icon-menu.svg">
+    </button>
+
+    <nav class="desktop-nav" id="desktop-nav">
+      <ul class=nav-list >
+        <li class="list-item">
+          <a href="#" class="home">Home</a>
+        </li>
+  
+        <li class="list-item">
+          <a href="#" class="new">New</a>
+        </li>
+  
+        <li class="list-item">
+          <a href="#" class="popular">Popular</a>
+        </li>
+  
+        <li class="list-item">
+          <a href="#" class="trending">Trending</a>
+        </li>
+  
+        <li class="list-item">
+          <a href="#" class="categories">Categories</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- nav for mobile users -->
+  <dialog>
+    <nav>
+      <button class="close-menu-button" id="close-menu-button">
+        <img src="./images/icon-menu-close.svg" alt="">
+      </button>
+  
+        <ul class=nav-list >
+          <li class="list-item">
+            <a href="#" class="home">Home</a>
+          </li>
+    
+          <li class="list-item">
+            <a href="#" class="new">New</a>
+          </li>
+    
+          <li class="list-item">
+            <a href="#" class="popular">Popular</a>
+          </li>
+    
+          <li class="list-item">
+            <a href="#" class="trending">Trending</a>
+          </li>
+    
+          <li class="list-item">
+            <a href="#" class="categories">Categories</a>
+          </li>
+        </ul>
+    </nav>
+  </dialog>
+
+  <main>
+    <!-- content -->
+    <div class="headline-article">
+      <img id="headline-image" src="./images/image-web-3-mobile.jpg">
+      <h1>The Bright Future of Web 3.0?</h1>
+      <p>
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?
+      </p>
+
+      <button>Read more</button>
+    </div>
+
+    <!-- the New container -->
+    <div class="new-container">
+      <h1>New</h1>
+      
+      <button>
+        <a href="#">Hydrogen VS Electric Cars</a>
+      </button>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+
+      <button>
+        <a href="#">The Downsides of AI Artistry</a>
+      </button>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+
+      <button>
+        <a href="#">Is VC Funding Drying Up?</a>
+      </button>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+    
+  <!-- Recommendations list -->
+  <div class="recommendations-list">
+    <div class="recommendation">
+      <img src="./images/image-retro-pcs.jpg" alt="a picture of Retro pc">
+
+      <div class="article-text">
+        <span>01</span>
+        <button>
+          <a href="#">Reviving Retro PCs</a>
+        </button>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+
+    <div class="recommendation">
+      <img src="./images/image-top-laptops.jpg" alt="a picture of a keyboard">
+
+      <div class="article-text">
+        <span>02</span>
+        <button>
+          <a href="#">Top 10 Laptops of 2022</a>
+        </button>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+
+    <div class="recommendation">
+      <img src="./images/image-gaming-growth.jpg" alt="a picture of a ps4 controller">
+
+      <div class="article-text">
+        <span>03</span>
+        <button>
+          <a href="#">The Growth of Gaming</a>
+        </button>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/FaresTheDev" target="_blank">FaresTheDev</a>.
+    </div>
+  </footer>
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
